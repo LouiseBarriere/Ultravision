@@ -13,21 +13,26 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-
+.header {
+  text-align: center
+}
 
 h1 {
    /* Default font, size, and margins */
-   font-size: 88px; font-weight: 900; text-align: center;
+ color: white;
+ font-size: 88px;
+ font-weight: 900;
 }
 
 h2 {
   /* Default font, size, and margins */
-  font-size: 38px; font-weight: 900; text-align: center;
+color: white;
+font-size: 38px;
+font-weight: 900;
 }
 
 h3 {
   /* Default font, size, and margins */
-  font-size: 40px ; font-weight: 900; text-align: center;
 }
 
 h4 {
@@ -58,7 +63,37 @@ a:hover {
 * ------
 */
 
+.header_title {
+background-color: #fcce00;
+margin-top: 8px;
+margin-bottom: 8px;
+}
 
+.header_subtitle {
+  background-color: #ff6b00;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.header_deco-red {
+height: 32px;
+background-color: #e02020;
+margin-bottom: 8px;
+}
+
+.header_deco-violet{
+  height: 16px;
+  background-color: #b620e0;
+  margin-bottom: 8px;
+}
+
+.header_deco-bleu{
+  height: 8px;
+  background-color: #6236ff;
+  margin-bottom: 8px;
+}
 
 
 
