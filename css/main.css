@@ -7,7 +7,7 @@
 
 body {
   /* Default font family and font color */
-}
+  font-family: 'Poppins', sans-serif;}
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
@@ -17,14 +17,17 @@ p, li, textarea, label, input, select {
 
 h1 {
    /* Default font, size, and margins */
+   font-size: 88px; font-weight: 900; text-align: center;
 }
 
 h2 {
   /* Default font, size, and margins */
+  font-size: 38px; font-weight: 900; text-align: center;
 }
 
 h3 {
   /* Default font, size, and margins */
+  font-size: 40px ; font-weight: 900; text-align: center;
 }
 
 h4 {
@@ -54,6 +57,7 @@ a:hover {
 * Layout
 * ------
 */
+
 
 
 
