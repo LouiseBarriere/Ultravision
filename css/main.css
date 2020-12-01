@@ -13,6 +13,7 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
   font-size: 16px;
   color: #231f20;
+  text-align: justify;
 }
 
 .header {
@@ -259,10 +260,12 @@ flex-grow: 1;
   padding-left: 60px;
 }
 
-.paragraphe3 {
-  text-align: justify; 
+.paragraphe3 { 
   color: white;
   font-size: 24px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .bloc_illu3 {
@@ -273,6 +276,9 @@ flex-grow: 1;
 .illu3 {
   mix-blend-mode: multiply;
   display: block;
+  margin-top: 18px;
+  margin-bottom: 64px;
+
 }
 
 .button3 {
@@ -289,7 +295,7 @@ padding: 8px 32px;
 }
 
 .bloc-fond2 {
-  background-image: url(../img/bg-red.png);
+  background-image: url(../img/bg-violet.png);
   background-position: left top;
   background-size: auto 100%;
 }
@@ -323,9 +329,10 @@ flex-grow: 1;
 }
 
 .paragraphe4 {
-  text-align: justify; 
   color: white;
   font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .bloc_illu4 {
@@ -336,9 +343,77 @@ flex-grow: 1;
 .illu4 {
   mix-blend-mode: multiply;
   display: block;
+  margin-top: 18px;
+  margin-bottom: 64px;
 }
 
 .button4 {
+border: solid 4px #fff;
+border-radius: 15px;
+display: block;
+max-width: 200px;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+text-align: center;
+color: #fff;
+padding: 8px 32px;
+}
+
+.bloc-fond3 {
+  background-image: url(../img/bg-blue.png);
+  background-position: left top;
+  background-size: auto 100%;
+}
+
+.bloc_paragraphe-illu5 {
+display: flex;
+max-width: 1200px;
+margin-right: auto;
+margin-left: auto;
+  } 
+
+.bloc_paragraphe5,
+.bloc_illu5{
+flex-basis: 320px;
+flex-grow: 1;
+}
+
+.paragraphe-title5 {
+  text-align: left;
+  font-weight: 900;
+  margin: 0;
+  font-size: 32px;
+  color: white;
+}
+
+.bloc_paragraphe5 {
+  padding-top: 64px;
+  padding-right: 32px;
+  padding-bottom: 0;
+  padding-left: 60px;
+}
+
+.paragraphe5 {
+  color: white;
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.bloc_illu5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.illu5 {
+  mix-blend-mode: multiply;
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 64px;
+}
+
+.button5 {
 border: solid 4px #fff;
 border-radius: 15px;
 display: block;
