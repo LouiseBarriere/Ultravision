@@ -224,6 +224,69 @@ text-align: center;
 color: #ff6b00;
 padding: 10px 32px;
 }
+
+.bloc-fond {
+  background-image: url(../img/bg-red.png);
+  background-position: left top;
+  background-size: auto 100%;
+}
+
+.bloc_paragraphe-illu3 {
+  display: flex;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  } 
+
+.bloc_paragraphe3,
+.bloc_illu3{
+flex-basis: 320px;
+flex-grow: 1;
+}
+
+.paragraphe-title3 {
+  text-align: left;
+  font-weight: 900;
+  margin: 0;
+  font-size: 32px;
+  color: white;
+}
+
+.bloc_paragraphe3 {
+  padding-top: 64px;
+  padding-right: 32px;
+  padding-bottom: 0;
+  padding-left: 60px;
+}
+
+.paragraphe3 {
+  text-align: justify; 
+  color: white;
+  font-size: 24px;
+}
+
+.bloc_illu3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.illu3 {
+  mix-blend-mode: multiply;
+  display: block;
+}
+
+
+.button3 {
+border: solid 4px #fff;
+border-radius: 15px;
+display: block;
+max-width: 200px;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+text-align: center;
+color: #fff;
+padding: 8px 32px;
 /**
 * ----------
 * Components
