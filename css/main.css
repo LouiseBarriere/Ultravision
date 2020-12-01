@@ -42,10 +42,6 @@ h3 {
 
 h4 {
   /* Default font, size, and margins */
-  font-size: 24px;
-  color: #231f20;
-  text-align: center;
-  font-weight: 800;
 }
 
 h5 {
@@ -104,25 +100,55 @@ margin-bottom: 8px;
   margin-bottom: 8px;
 }
 
-.bloc_paragraphe-img {
+.bloc_paragraphe-illu {
   display: flex;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 64px;
   } 
 
-.bloc_paragraphe{
-width: 50%;
-padding-left: 500px;
-padding-right: 32px;
+.bloc_paragraphe,
+.bloc_illu{
+flex-basis: 320px;
+flex-grow: 1;
 }
 
-.bloc_img{
-width: 50%;
+.paragraphe-title{
+  font-size: 24px;
+  color: #231f20;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+}
+
+.bloc_paragraphe{
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 0;
+  padding-left: 32px;
 }
 
 .paragraphe{
   font-size: 16px;
-  text-align: justify;
- 
+  text-align: justify; 
 }
+
+.bloc_illu{
+  background-image: url(../img/bg-yellow.png);
+  background-position: left top;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.illu{
+  mix-blend-mode: multiply;
+  display: block;
+  max-width: 70%;
+}
+
 
 .button1 {
 border: solid 4px #fcce00;
@@ -136,7 +162,69 @@ font-style: normal;
 text-align: center;
 color: #fcce00;
 padding: 10px 32px;
+}
 
+.bloc_paragraphe-illu2 {
+  display: flex;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  } 
+
+.bloc_paragraphe2,
+.bloc_illu2{
+flex-basis: 320px;
+flex-grow: 1;
+}
+
+.paragraphe-title2{
+  font-size: 24px;
+  color: #231f20;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+}
+
+.bloc_paragraphe2{
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 0;
+  padding-left: 32px;
+}
+
+.paragraphe2{
+  font-size: 16px;
+  text-align: justify; 
+}
+
+.bloc_illu2{
+  background-image: url(../img/bg-yellow.png);
+  background-position: left top;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.illu2{
+  mix-blend-mode: multiply;
+  display: block;
+  max-width: 70%;
+}
+
+
+.button2 {
+border: solid 4px #fcce00;
+border-radius: 15px;
+display: block;
+max-width: 200px;
+margin-left: auto;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+text-align: center;
+color: #fcce00;
+padding: 10px 32px;
 }
 /**
 * ----------
