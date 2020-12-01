@@ -80,6 +80,10 @@ margin-top: 8px;
 margin-bottom: 8px;
 }
 
+@media screen and (max-width: 780px){
+  font-size: 40px;
+}
+
 .header_subtitle {
   background-color: #ff6b00;
   margin-bottom: 8px;
@@ -281,7 +285,7 @@ flex-grow: 1;
 
 }
 
-.button3 {
+.bouton-blanc {
 border: solid 4px #fff;
 border-radius: 15px;
 display: block;
@@ -347,19 +351,6 @@ flex-grow: 1;
   margin-bottom: 64px;
 }
 
-.button4 {
-border: solid 4px #fff;
-border-radius: 15px;
-display: block;
-max-width: 200px;
-font-size: 20px;
-font-weight: bold;
-font-style: normal;
-text-align: center;
-color: #fff;
-padding: 8px 32px;
-}
-
 .bloc-fond3 {
   background-image: url(../img/bg-blue.png);
   background-position: left top;
@@ -413,17 +404,39 @@ flex-grow: 1;
   margin-bottom: 64px;
 }
 
-.button5 {
-border: solid 4px #fff;
-border-radius: 15px;
-display: block;
-max-width: 200px;
-font-size: 20px;
-font-weight: bold;
-font-style: normal;
-text-align: center;
-color: #fff;
-padding: 8px 32px;
+.dernieres-sorties-contact {
+background-color: #231f20;
+padding: 0 34px 34px 34px
+}
+
+.dernieres-sorties-title {
+color: white;
+padding-top: 64px;
+padding-bottom: 64px;
+margin: 0px;
+}
+
+.grille {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 32px;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+.jeu {
+width: 100%;
+}
+
+.formulaire {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: 320px 560px;
+  
+}
 /**
 * ----------
 * Components
