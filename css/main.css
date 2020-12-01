@@ -11,6 +11,8 @@ body {
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
+  font-size: 16px;
+  color: #231f20;
 }
 
 .header {
@@ -42,6 +44,9 @@ h3 {
 
 h4 {
   /* Default font, size, and margins */
+  font-size: 24px;
+  color: #231f20;
+  font-weight: 800;
 }
 
 h5 {
@@ -102,7 +107,7 @@ margin-bottom: 8px;
 
 .bloc_paragraphe-illu {
   display: flex;
-  max-width: 1024px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 64px;
@@ -114,9 +119,7 @@ flex-basis: 320px;
 flex-grow: 1;
 }
 
-.paragraphe-title{
-  font-size: 24px;
-  color: #231f20;
+.paragraphe-title {
   text-align: center;
   font-weight: 800;
   margin: 0;
@@ -129,8 +132,7 @@ flex-grow: 1;
   padding-left: 32px;
 }
 
-.paragraphe{
-  font-size: 16px;
+.paragraphe {
   text-align: justify; 
 }
 
@@ -166,7 +168,7 @@ padding: 10px 32px;
 
 .bloc_paragraphe-illu2 {
   display: flex;
-  max-width: 1024px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   } 
@@ -177,44 +179,40 @@ flex-basis: 320px;
 flex-grow: 1;
 }
 
-.paragraphe-title2{
-  font-size: 24px;
-  color: #231f20;
-  text-align: center;
-  font-weight: 800;
-  margin: 0;
+.paragraphe-title2 {
+text-align: center;
+margin: 0;
 }
 
-.bloc_paragraphe2{
+.bloc_paragraphe2 {
   padding-top: 0;
   padding-right: 32px;
   padding-bottom: 0;
   padding-left: 32px;
 }
 
-.paragraphe2{
-  font-size: 16px;
+.paragraphe2 {
   text-align: justify; 
 }
 
-.bloc_illu2{
-  background-image: url(../img/bg-yellow.png);
-  background-position: left top;
+.bloc_illu2 {
+  background-image: url(../img/bg-orange.png);
+  background-position: right top;
   background-size: auto 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
 }
 
-.illu2{
-  mix-blend-mode: multiply;
+.illu2 {
+  mix-blend-mode:multiply;
   display: block;
   max-width: 70%;
 }
 
 
 .button2 {
-border: solid 4px #fcce00;
+border: solid 4px #ff6b00;
 border-radius: 15px;
 display: block;
 max-width: 200px;
@@ -223,7 +221,7 @@ font-size: 20px;
 font-weight: bold;
 font-style: normal;
 text-align: center;
-color: #fcce00;
+color: #ff6b00;
 padding: 10px 32px;
 }
 /**
