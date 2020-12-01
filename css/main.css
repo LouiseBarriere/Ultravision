@@ -81,7 +81,6 @@ margin-bottom: 8px;
 }
 
 @media screen and (max-width: 780px){
-  font-size: 40px;
 }
 
 .header_subtitle {
@@ -432,10 +431,28 @@ width: 100%;
 
 .formulaire {
   display: grid;
-  justify-items: center;
-  justify-content: center;
   grid-template-columns: 320px 560px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 64px;
+}
   
+.nom {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.email {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+label {
+  color: white;
 }
 /**
 * ----------
