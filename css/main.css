@@ -9,7 +9,7 @@ body {
   /* Default font family and font color */
   font-family: 'Poppins', sans-serif;}
 
-p, li, textarea, label, input, select {
+p, li, {
   /* Default font size and line height */
   font-size: 16px;
   color: #231f20;
@@ -427,6 +427,8 @@ margin: 0px;
 .jeu1 {
 width: 100%; 
 position: relative;
+border-radius: 30px;
+overflow: hidden;
 }
 
 .game-content1 {
@@ -436,7 +438,6 @@ right:0;
 left: 0;
 bottom: 0;
 background-color: rgba(0, 0, 0, .80);
-border-radius: 12px;
 padding: 16px;
 opacity: 0;
 transition: opacity 200ms;  
@@ -478,11 +479,14 @@ transform: translateY(10px);
 
 .image-jeu {
   width: 100%;
+  display: block;
 }
 
 .jeu2 {
   width: 100%; 
   position: relative;
+  border-radius: 30px;
+  overflow: hidden;
   }
 
 .game-content2 {
@@ -492,7 +496,6 @@ right:0;
 left: 0;
 bottom: 0;
 background-color: rgba(0, 0, 0, .80);
-border-radius: 12px;
 padding: 16px;
 opacity: 0;
 transition: opacity 200ms;
@@ -520,26 +523,53 @@ margin-top: 8;
 }
 
 .formulaire {
-  display: flex
-  justify-content: center;
+  display: flex;
+
+}
+.form-colonne{
+  flex-grow: 1;
   align-items: center;
 }
   
-.nom {
+.ligne-formulaire-g{
+display: block;
+font-size: 20px;
+font-weight: 300;
+color: #fff;
+padding: 8px 32px;
 }
 
-.email {
-}
-
-.sujet {
-}
-
-.message {
+.ligne-formulaire-d {
+display: block;
+font-size: 20px;
+font-weight: 300;
+text-align: left;
+color: #fff;
+padding: 8px 32px;
 }
 
 label {
   color: white;
+  font-size: 16px;
 }
+
+input {
+  border-radius: 10px;
+  width: 100%;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 100%;
+}
+
+select {
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
 /**
 * ----------
 * Components
